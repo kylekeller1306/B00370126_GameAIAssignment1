@@ -1,0 +1,4 @@
+﻿  gameai-assignment1.cpp
+C:\Users\Kyle\Desktop\Game AI Assignment 1\raylib-extras\draw-triangle-pro.hpp(56,39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Kyle\Desktop\Game AI Assignment 1\raylib-extras\draw-triangle-pro.hpp(56,27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  gameai-assignment1.vcxproj -> C:\Users\Kyle\Desktop\Game AI Assignment 1\gameai-assignment1\code\build\Debug\gameai-assignment1.exe

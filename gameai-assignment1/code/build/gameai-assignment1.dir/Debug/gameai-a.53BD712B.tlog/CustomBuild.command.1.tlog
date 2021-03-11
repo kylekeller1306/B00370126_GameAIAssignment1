@@ -1,0 +1,10 @@
+^C:\USERS\KYLE\DESKTOP\GAME AI ASSIGNMENT 1\GAMEAI-ASSIGNMENT1\CODE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Kyle/Desktop/Game AI Assignment 1/gameai-assignment1/code" "-BC:/Users/Kyle/Desktop/Game AI Assignment 1/gameai-assignment1/code/build" --check-stamp-file "C:/Users/Kyle/Desktop/Game AI Assignment 1/gameai-assignment1/code/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
